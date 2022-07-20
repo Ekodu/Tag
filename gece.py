@@ -45,9 +45,9 @@ async def start(event):
                        Button.inline("✍ Əmrlər", data="help")
                       ],
                       [Button.url('🌱 Məni Qrupa Əlavə Et', f'https://t.me/{USERNAME}?startgroup=a')],
-                     [Button.url('📣 Söhbət Qrupu', f'https://t.me/{group}')],
-                      [Button.url('📣 Kanal', f'https://t.me/{support}')],
-                       [Button.url('👨🏻‍💻 Sahib', f'https://t.me/{sahib}')]
+                     [Button.url('📣 Söhbət Qrupu', f'https://t.me/BakuCity_Az')],
+                      [Button.url('📣 Kanal', f'https://t.me/EkoBlogs')],
+                       [Button.url('👨🏻‍💻 Sahib', f'https://t.me/Nevrozdu')]
                     ),
                     link_preview=False)
 
@@ -65,9 +65,9 @@ async def handler(event):
                        Button.inline("✍ Əmrlər", data="help")
                       ],
                       [Button.url('🌱 Məni Qrupa Əlavə Et', f'https://t.me/{USERNAME}?startgroup=a')],
-                     [Button.url('📣 Söhbət Qrupu', f'https://t.me/{group}')],
-                      [Button.url('📣 Kanal', f'https://t.me/{support}')],
-                       [Button.url('👨🏻‍💻 Sahib', f'https://t.me/{sahib}')]
+                     [Button.url('📣 Söhbət Qrupu', f'https://t.me/BakuCity_Az')],
+                      [Button.url('📣 Kanal', f'https://t.me/EkoBlogs')],
+                       [Button.url('👨🏻‍💻 Sahib', f'https://t.me/Nevrozdu')]
                     ),
                     link_preview=False)
 
@@ -111,7 +111,7 @@ async def mentionall(event):
     await client.send_message(event.chat_id, "❄️ Tağ Başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                      Button.url('📣 Support', f'https://t.me/{support}')
+                      Button.url('📣 Support', f'https://t.me/BakuCity_Az')
                       ]
                     )
                   ) 
@@ -125,7 +125,7 @@ async def mentionall(event):
         await event.respond("⛔ Tağ Prosesi Dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 Support', f'https://t.me/@Bakucity_Az')
                       ]
                     )
                   )
