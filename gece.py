@@ -240,7 +240,7 @@ async def tektag(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in gece_tag:
-        await event.respond("⛔ Teker teker Tağ Prosesi Dayandırıldı",
+        await event.respond("⛔ Tək-Tək Tağ Prosesi Dayandırıldı",
                     buttons=(
                       [
                        Button.url('📣 Support', f'https://t.me/{support}')
@@ -309,7 +309,7 @@ async def etag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(emoji)}](tg://user?id={usr.id}) "
       if event.chat_id not in gece_tag:
-        await event.respond("⛔ Emoji  li Tağ işlemi Dayandırıldı",
+        await event.respond("⛔ Emojilərlə Tağ Etmə Dayandırıldı",
                     buttons=(
                       [
                        Button.url('📣 Support', f'https://t.me/{support}')
